@@ -1,5 +1,6 @@
 import Sidebar from "../components/Sidebar/Sidebar";
 import TopBar from "../components/TopBar/TopBar";
+import Counter from "../components/Counter/Counter";
 import styles from "../Layout.module.css";
 import "./globals.css";
 
@@ -18,6 +19,7 @@ export default function RootLayout({ children }: LayoutProps) {
       <body>
         <div className={styles.container}>
           <TopBar />
+          <Counter />
           <div className={styles.mainContent}>
             <Sidebar />
             <div className={styles.content}>{children}</div>
