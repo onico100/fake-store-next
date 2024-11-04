@@ -1,6 +1,11 @@
 .topBar {
-  background-color: #333;
+  background-color: #120e12;
   color: white;
   padding: 10px;
   text-align: center;
+}
+
+.topBar h1 {
+  color: white;
+  text-decoration: none;
 }

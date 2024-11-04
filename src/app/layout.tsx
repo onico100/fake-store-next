@@ -1,6 +1,7 @@
 import Sidebar from "../components/Sidebar/Sidebar";
 import TopBar from "../components/TopBar/TopBar";
 import styles from "../Layout.module.css";
+import "./globals.css";
 
 export const metadata = {
   title: "My Next.js App",
